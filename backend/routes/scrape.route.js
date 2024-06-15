@@ -23,7 +23,6 @@ async function scrapeMediumArticles(topic) {
 
     await page.goto(`https://medium.com/search?q=${topic}`, {
       waitUntil: "networkidle2",
-      timeout: 40000,
     });
 
     const articles = await page.evaluate(() => {
