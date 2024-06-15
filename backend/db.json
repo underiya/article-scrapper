@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "title": "All React JS Hooks Explained",
+      "body": "React.js has revolutionized how we build user interfaces by providing a simple yet powerful way to manage state and lifecycle in functional…",
+      "link": "https://medium.com/towardsdev/all-react-js-hooks-explained-baba44b67cb3",
+      "author": "Svetloslav Novoselski"
+    },
+    {
+      "title": "I tried React Compiler today, and guess what… 😉",
+      "body": "Investigating whether we can forget about memoization in React, now that the React Compiler is open-sourced.",
+      "link": "https://medium.com/@adevnadia/i-tried-react-compiler-today-and-guess-what-c0570ce10ecc",
+      "author": "Nadia Makarevich"
+    },
+    {
+      "title": "Rendering Strategies: Every React Developer Should Know",
+      "body": "",
+      "link": "https://medium.com/@oguzkilic/rendering-strategies-every-react-developer-should-know-2f9e8ed04b93",
+      "author": "Oğuz Kılıç"
+    },
+    {
+      "title": "6 Smarter Ways to Write Conditionals In React You Should Know About",
+      "body": "6 React Tips That Every Developer Should Know About.",
+      "link": "https://medium.com/javascript-in-plain-english/6-smarter-ways-to-write-conditionals-in-react-you-should-know-about-98d9d986d66e",
+      "author": "fatfish"
+    },
+    {
+      "title": "3.5 New Hooks and the ‘use’ API in React 19",
+      "body": "A Comprehensive Guide to useTransition, useActionState, useFormStatus, useOptimistic, and the ‘use’ API",
+      "link": "https://medium.com/gitconnected/3-5-new-hooks-and-the-use-api-in-react-19-bbea52190eba",
+      "author": "Jennifer Fu"
+    }
+  ]
+}

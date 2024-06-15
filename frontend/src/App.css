@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.article-container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.loading {
+  width: 100px;
+  height: 100px;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid black;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+.loader {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.article {
+  color: black;
+}
+
+.article-container > div {
+  text-align: center;
+}
