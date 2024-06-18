@@ -16,7 +16,7 @@ const SearchForm = ({ onSearch, setLoading }) => {
       setLoading(true);
       try {
         let res = await axios.post(url, { topic: cred });
-        console.log(res.data);
+        console.log(res.data.data);
         setLoading(false);
         onSearch(res.data.data);
       } catch (error) {

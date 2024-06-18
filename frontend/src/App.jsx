@@ -6,7 +6,8 @@ import SearchForm from "./components/SearchForm";
 import ArticleList from "./components/ArticleList";
 import Loading from "./components/Loading";
 
-export const baseUrl = "http://localhost:8080" || "deployed server";
+export const baseUrl =
+  "https://article-scrapper-backend.onrender.com" || "http://localhost:8080";
 function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
